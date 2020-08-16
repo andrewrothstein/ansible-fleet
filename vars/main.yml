@@ -1,0 +1,9 @@
+---
+# vars file for fleet
+fleet_platform: '{{ fleet_os }}_{{ fleet_arch }}'
+fleet_archive: fleet_{{ fleet_ver }}_{{ fleet_platform }}.{{ fleet_archive_type | default("tar.gz") }}
+fleet_url: '{{ fleet_mirror }}/v{{ fleet_ver }}/{{ fleet_archive }}'
+fleet_checksum: '{{ fleet_checksums[fleet_ver][fleet_platform] }}'
+fleet_install_dir: '{{ fleet_parent_install_dir }}/fleet-{{ fleet_ver }}'
+fleet_installed_exe: '{{ fleet_install_dir }}/fleet'
+fleet_installed_link: '{{ fleet_parent_install_dir }}/bin/fleet'
