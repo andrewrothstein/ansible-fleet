@@ -1,6 +1,6 @@
 ---
 # defaults file for fleet
-fleet_ver: 0.2.0
+fleet_ver: 0.3.0
 fleet_os: linux
 fleet_arch: amd64
 fleet_parent_install_dir: /usr/local
@@ -20,3 +20,15 @@ fleet_checksums:
     linux_ppc64le: sha256:d86a38c700171e034c562a89ebdf6a5d0b71fe34ed84bdfeba3e8b4f17c5597d
     # https://github.com/rancher/fleet/releases/download/v0.2.0/fleet_0.2.0_windows_amd64.zip
     windows_amd64: sha256:105a0c6d5e9f4cb853ec3ec8f8b94af3dafe2e5e3f55999b43355c979ea98841
+  # https://github.com/rancher/fleet/releases/download/v0.3.0/checksums.txt
+  0.3.0:
+    # https://github.com/rancher/fleet/releases/download/v0.3.0/fleet_0.3.0_darwin_amd64.tar.gz
+    darwin_amd64: sha256:1a093b436f885d7c8a2b46bec126a52fb90651148a7936c60ef93394f7c13ae5
+    # https://github.com/rancher/fleet/releases/download/v0.3.0/fleet_0.3.0_linux_amd64.tar.gz
+    linux_amd64: sha256:16a46a5321d673b5a835365ab0d8d84c0f14bd8c5e441bcb3820a022893ec97a
+    # https://github.com/rancher/fleet/releases/download/v0.3.0/fleet_0.3.0_linux_arm.tar.gz
+    linux_arm: sha256:f5658544dc4709a13d0dae7d7c48bcd4bb763d56ad9ad21e4e0a65db14b21b05
+    # https://github.com/rancher/fleet/releases/download/v0.3.0/fleet_0.3.0_linux_arm64.tar.gz
+    linux_arm64: sha256:2ede46157c4f8cd7d4587f01ea2bb40902b47be7d8aeb6956af6de46f1c6c780
+    # https://github.com/rancher/fleet/releases/download/v0.3.0/fleet_0.3.0_windows_amd64.zip
+    windows_amd64: sha256:ae2228927beb4bb2c8adcd3947f9b1ff05ff4773fd8f2552613421dea188c85b

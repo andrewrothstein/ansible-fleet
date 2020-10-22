@@ -34,8 +34,7 @@ dl_ver() {
     dl $ver $lchecksums linux amd64
     dl $ver $lchecksums linux arm
     dl $ver $lchecksums linux arm64
-    dl $ver $lchecksums linux ppc64le
     dl $ver $lchecksums windows amd64 zip
 }
 
-dl_ver ${1:-0.2.0}
+dl_ver ${1:-0.3.0}
